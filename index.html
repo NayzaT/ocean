@@ -1,116 +1,171 @@
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="OceanMak">
-        <title>OceanMak</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-         <link href="/css/style.css" rel="stylesheet">
-          </head>
-          <body>
-
-<!-- Navbar -->
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-              <div class="container">
-                <a class="navbar-brand" href="#">
-                  <img src="./assests/logo.jpeg" alt="Bootstrap" width="120px" height="45">
-                </a>
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Commercial Diving</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">Marine Service</a>
-                  </li>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="OceanMak" />
+    <title>OceanMak</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link href="/css/style.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+</head>
+<body>
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg" id="nav1">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img
+              src="../assests/logo.png"
+              alt="Bootstrap"
+              width="100%"
+              height="50px"
+            />
+          </a>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about-us/">About Us</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Commercial Diving
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="./commercial-diving/">Underwater inspections</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="./commercial-diving/">Civil Engineering & Construction
+                  </a>
+                </li>
+                <li><a class="dropdown-item" href="./commercial-diving/">Search and recovery</a></li>
+                <li><a class="dropdown-item" href="./commercial-diving/">Salvage</a></li>
+                <li>
+                  <a class="dropdown-item" href="./commercial-diving/">Swimming pool maintenance</a>
+                </li>
               </ul>
-                </div>
-            </nav>
-
-            <!-- Carousel -->
-            <div>
-              <img src="./assests/carousel.jpeg" alt="Snow" style="width:100%; height:350px;">
-              <h3 class="text-black centered">The Marine Solutions Contractor</h3>
-            </div>
-
-          <!-- Welcome -->
-            <div class="center" style="font-weight: bold; text-align: center; padding-top: 5; font-size: 25px;">Welcome to Oceanmak diving services LLC</div>
-
-          <!--Grey Box  -->
-          <div style="background-color:grey; margin:20px;">
-          <p style="color: white; padding: 5;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque ratione dolore laborum quasi tempore, ipsum commodi facere voluptatum accusamus quas, magnam quam ea fugit ab, aperiam iste sunt dignissimos eum.</p>
-          </div>
-
-          <!-- Commercial Diving Service -->
-          <div class="center" style="font-weight: bold; text-align: center; padding: 5; font-size: 23px;">Commercial Diving Service</div>
-
-          <div class="card-group ms-5 ">
-            <div class="card p-1">
-              <img src="./assests/commercial.jpeg" class="card-img-top" alt="First" height="150px">
-            
-                <h5 class="card-title">Card 1</h5>
-            </div>
-            <div class="card p-1">
-              <img src="./assests/commercial.jpeg" class="card-img-top" alt="First" height="150px">
-                <h5 class="card-title">Card 2</h5>
-            </div>
-            <div class="card p-1">
-              <img src="./assests/commercial.jpeg" class="card-img-top" alt="First" height="150px">
-                <h5 class="card-title">Card 3</h5>
-            </div>
-          </div>
-          <div class="card-group ms-5 mt-0 ">
-            <div class="card p-1">
-              <img src="./assests/commercial.jpeg" class="card-img-top" alt="First" height="150px">
-                <h5 class="card-title">Card 4</h5>
-            </div>
-            <div class="card p-1">
-              <img src="./assests/commercial.jpeg" class="card-img-top" alt="First" height="150px">
-                <h5 class="card-title">Card 5</h5>
-            </div>
-            <div class="card p-1">
-              <img src="./assests/commercial.jpeg" class="card-img-top" alt="First" height="150px">
-                <h5 class="card-title">Card 6</h5>
-            </div>
-          </div>
+            </li>
     
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">Marine Service
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Silt removal and UW airlifting</a></li>
+                <li><a class="dropdown-item" href="#">Underwater Photography and Videography</a></li>
+                <li><a class="dropdown-item" href="#">Underwater Welding and Cutting</a></li>
+                <li><a class="dropdown-item" href="#">Underwater Demolition</a></li>
+                <li><a class="dropdown-item" href="#">Marine Archaeology</a></li>
+                <li><a class="dropdown-item" href="#">Marine Biology and Environmental Monitoring </a></li>
+                <li><a class="dropdown-item" href="#">Construction and Installation</a></li>
+                <li><a class="dropdown-item" href="#">Installation of beach buoys and jelly fish nets</a></li>
+                <li><a class="dropdown-item" href="#">Installation of geotextile/quay wall and other marine construction
+                    requirements</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">HSEQ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+       <!-- Welcome -->
+       
+    <div class="hero-image">
+      <div class="hero-text" style="padding: 3%;">
+        <h1>Welcome to OCEANMAK Diving Services LLC</h1>
+        <h5>Discover the Depths with Our Comprehensive Marine Solutions</h5>
+      </div>
+    </div>
+       <!-- <div class="center" style="font-weight: bold; text-align: center; padding-top: 5; font-size: 25px;">Welcome to Oceanmak diving services LLC</div> -->
 
-           <!-- Marine Service -->
-           <div class="center" style="font-weight: bold; text-align: center; padding:10px; ; font-size: 23px;">Marine Service</div>
+       <!--Grey Box  -->
+       <div style="color: rgb(51, 0, 255);  margin:20px; padding: 1%; text-align:justify; font-family:Verdana, Geneva, Tahoma, sans-serif;">
+       <h6>At our core, we're dedicated to pioneering innovation in commercial diving and marine contracting, providing a range of specialized services tailored to meet the unique needs of marine projects. Since our establishment in 2009, we've been committed to delivering top-notch solutions that exceed expectations.
+      </h6>
+      <h6>Operating across the dynamic landscapes of the Middle East and India, we've built a reputation for reliability, expertise, and excellence. Our team of skilled professionals brings a wealth of experience and technical know-how to every project, ensuring precision and efficiency at every step.
+      </h6>
+      <h6>Whether it's underwater inspections, construction, maintenance, or repair, we offer a one-stop destination for all your marine project needs. From the initial planning stages to execution and beyond, we're your trusted partner every step of the way.
+      </h6>
+      <h6>Embrace the endless possibilities of marine exploration with us – where every project, be it in, on, or under the water, is met with dedication, expertise, and a commitment to excellence.
+      </h6>
+      </div>
 
-           <div class="card-group ms-5 ">
-             <div class="card p-1">
-               <img src="./assests/marine.jpeg" class="card-img-top" alt="First" height="150px">
-                 <h5 class="card-title">Card 1</h5>
-             </div>
-             <div class="card p-1">
-               <img src="./assests/marine.jpeg" class="card-img-top" alt="First" height="150px">
-                 <h5 class="card-title">Card 2</h5>
-             </div>
-             <div class="card p-1">
-               <img src="./assests/marine.jpeg" class="card-img-top" alt="First" height="150px">
-                 <h5 class="card-title">Card 3</h5>
-             </div>
-           </div>
-           <div class="card-group ms-5 mt-0 ">
-             <div class="card p-1">
-               <img src="./assests/marine.jpeg" class="card-img-top" alt="First" height="150px">
-                 <h5 class="card-title">Card 4</h5>
-             </div>
-             <div class="card p-1">
-               <img src="./assests/marine.jpeg" class="card-img-top" alt="First" height="150px">
-                 <h5 class="card-title">Card 5</h5>
-             </div>
-             <div class="card p-1">
-               <img src="./assests/marine.jpeg" class="card-img-top" alt="First" height="150px">
-                 <h5 class="card-title">Card 6</h5>
-             </div>
-           </div>
+       <!-- Commercial Diving Service -->
+       <div class="center" style="font-weight: bold; text-align: center; padding: 5; font-size: 23px;">Commercial Diving Service</div>
 
-   </body>
+       <div class="card-group ms-5 ">
+         <div class="card p-1">
+           <img src="./assests/commercial.jpeg" class="card-img-top" alt="First" height="150px">
+         
+             <h5 class="card-title">Card 1</h5>
+         </div>
+         <div class="card p-1">
+           <img src="./assests/commercial.jpeg" class="card-img-top" alt="First" height="150px">
+             <h5 class="card-title">Card 2</h5>
+         </div>
+         <div class="card p-1">
+           <img src="./assests/commercial.jpeg" class="card-img-top" alt="First" height="150px">
+             <h5 class="card-title">Card 3</h5>
+         </div>
+       </div>
+       <div class="card-group ms-5 mt-0 ">
+         <div class="card p-1">
+           <img src="./assests/commercial.jpeg" class="card-img-top" alt="First" height="150px">
+             <h5 class="card-title">Card 4</h5>
+         </div>
+         <div class="card p-1">
+           <img src="./assests/commercial.jpeg" class="card-img-top" alt="First" height="150px">
+             <h5 class="card-title">Card 5</h5>
+         </div>
+         <div class="card p-1">
+           <img src="./assests/commercial.jpeg" class="card-img-top" alt="First" height="150px">
+             <h5 class="card-title">Card 6</h5>
+         </div>
+       </div>
+ 
+
+        <!-- Marine Service -->
+        <div class="center" style="font-weight: bold; text-align: center; padding:10px; ; font-size: 23px;">Marine Service</div>
+
+        <div class="card-group ms-5 ">
+          <div class="card p-1">
+            <img src="./assests/marine.jpeg" class="card-img-top" alt="First" height="150px">
+              <h5 class="card-title">Card 1</h5>
+          </div>
+          <div class="card p-1">
+            <img src="./assests/marine.jpeg" class="card-img-top" alt="First" height="150px">
+              <h5 class="card-title">Card 2</h5>
+          </div>
+          <div class="card p-1">
+            <img src="./assests/marine.jpeg" class="card-img-top" alt="First" height="150px">
+              <h5 class="card-title">Card 3</h5>
+          </div>
+        </div>
+        <div class="card-group ms-5 mt-0 ">
+          <div class="card p-1">
+            <img src="./assests/marine.jpeg" class="card-img-top" alt="First" height="150px">
+              <h5 class="card-title">Card 4</h5>
+          </div>
+          <div class="card p-1">
+            <img src="./assests/marine.jpeg" class="card-img-top" alt="First" height="150px">
+              <h5 class="card-title">Card 5</h5>
+          </div>
+          <div class="card p-1">
+            <img src="./assests/marine.jpeg" class="card-img-top" alt="First" height="150px">
+              <h5 class="card-title">Card 6</h5>
+          </div>
+        </div>
+</body>
 </html>
