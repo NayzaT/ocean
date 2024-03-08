@@ -17,7 +17,9 @@
 .nav-item>a:hover {
     color: #72a5d8;
 }
-
+.home_content{
+  line-height: 1.9;
+}
 /*code to change background color*/
 .navbar-nav>.active>a {
     background-color: #C0C0C0;
