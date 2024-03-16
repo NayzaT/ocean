@@ -6,6 +6,7 @@
   }
 
   #nav1{
+    height: 10vh;
     background-color:#ffffff;
     color: rgb(0, 0, 0);
   }
@@ -13,21 +14,53 @@
   .navbar-nav li a{
     color: rgb(0, 0, 0);
   }
-
 .nav-item>a:hover {
-    color: #72a5d8;
+  color: #2a365f;
 }
 .home_content{
   line-height: 1.9;
 }
+header
+{
+
+	height: 90vh;
+	background-image:linear-gradient(to bottom,
+  rgba(255, 255, 255, 0.75),
+  rgba(8, 83, 156, 0.75)),  url('../assests/landing.jpeg');
+	display: flex;
+	flex-direction: column; 
+	 align-items: center; 
+	background-size: cover;
+	justify-content: center; 
+	 margin-bottom: 30px; 
+  color: #2a365f;
+}
+
+#down
+{
+	position: absolute;
+	top:85vh;
+	size: 40px;
+	padding: 20px;
+	font-size: 2.5em;
+}
+
+#down:hover
+{
+	cursor: pointer;
+	background-color: #eee;
+	opacity: 0.8;
+}
+
 /*code to change background color*/
 .navbar-nav>.active>a {
-    background-color: #C0C0C0;
-    color: #72a5d8;
+    /* background-color: #C0C0C0; */
+    color: #2a365f;
+   
 } 
 
 .dropdown-menu{
-  background-color:#243F5A;
+  background-color:#ffffff;
     color: white;
 }
 
