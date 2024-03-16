@@ -6,12 +6,12 @@
   }
 
   #nav1{
-    background-color:#243F5A;
-    color: white;
+    background-color:#ffffff;
+    color: rgb(0, 0, 0);
   }
 
   .navbar-nav li a{
-    color: white;
+    color: rgb(0, 0, 0);
   }
 
 .nav-item>a:hover {
