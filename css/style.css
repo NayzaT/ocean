@@ -5,6 +5,10 @@
     transform: translate(-5%, -400%);
   }
 
+  body{
+    font-family:sans-serif;
+  }
+
   #nav1{
     height: 10vh;
     background-color:#ffffff;
@@ -22,7 +26,6 @@
 }
 header
 {
-
 	height: 90vh;
 	background-image:linear-gradient(to bottom,
   rgba(255, 255, 255, 0.75),
@@ -39,16 +42,18 @@ header
 #down
 {
 	position: absolute;
-	top:85vh;
+	 top:70vh;
 	size: 40px;
-	padding: 20px;
+	/* padding: 20px; */
 	font-size: 2.5em;
+  color: white;
 }
 
 #down:hover
 {
 	cursor: pointer;
-	background-color: #eee;
+	/* background-color: #eee; */
+  color: #2a365f;
 	opacity: 0.8;
 }
 
@@ -62,6 +67,14 @@ header
 .dropdown-menu{
   background-color:#ffffff;
     color: white;
+}
+
+.main{
+  color: #080808;
+  margin: 20px;
+  padding: 3.5%;
+  text-align: justify;
+  /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
 }
 
 .split {
