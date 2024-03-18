@@ -1,5 +1,5 @@
 body {
-    background-color:dodgerblue;
+    background-color:rgb(131, 149, 167);
 }
 .container{
     padding-top:10px;
@@ -7,8 +7,8 @@ body {
 h1 {
     font-family: 'Poppins', sans-serif, 'arial';
     font-weight: 600;
-    font-size: 72px;
-    color: darkblue;
+    font-size: 45px;
+    color: rgb(54, 54, 67);
     text-align: center;
 }
 

@@ -21,6 +21,25 @@
     <!-- style for contact -->
     <link href="./style.css" rel="stylesheet"/>
   
+    <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script>
+function SubForm (){
+    $.ajax({
+        url:'https://api.apispreadsheets.com/data/P0lnp3HRgnfhu2io/',
+        type:'post',
+        data:$("#myForm").serializeArray(),
+        success: function(){
+          alert("Form Data Submitted :)")
+        },
+        error: function(){
+          alert("There was an error :(")
+        }
+    });
+}
+</script>
     
   </head>
   <body>
@@ -117,9 +136,11 @@
     </div> -->
     <div class="row input-container">
         <div class="col-xs-12">
+          <form id="myForm">
           <div class="styled-input wide">
             <input type="text" required name="name" />
             <label>Name</label> 
+          
           </div>
         </div>
         <div class="col-md-6 col-sm-12">
@@ -140,8 +161,10 @@
             <label>Message</label>
           </div>
         </div>
+      </form>
         <div class="col-xs-12">
-          <div class="btn-lrg submit-btn">Send Message</div>
+          <button onclick="SubForm()">Send Message</button>
+          <!--<div class="btn-lrg submit-btn">Send Message</div>-->
         </div>
     </div>
   </div> 
